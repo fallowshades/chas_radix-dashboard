@@ -16,7 +16,7 @@ Komponenten för kalendern behöver inte vara med.
 
 1. Besök [länken](https://ui.shadcn.com/examples/dashboard) och analysera dashboardens layout och funktioner. Försök hitta lämpliga komponenter i Radix UI
 
-1. Använd React och Radix UI-komponenter för att återskapa dashboarden. Fokus bör ligga på att matcha layouten så nära som möjligt (det behöver inte vara perfekt). Installera gärna tailwind eller kör på vanlig css. Glöm inte att använda `className`` i React.
+1. Använd React och Radix UI-komponenter för att återskapa dashboarden. Fokus bör ligga på att matcha layouten så nära som möjligt (det behöver inte vara perfekt). Installera gärna tailwind eller kör på vanlig css. Glöm inte att använda `className` i React.
 
 1. Implementera Radix UI-teman för att anpassa utseendet på komponenterna och skapa en enhetlig design.
 
