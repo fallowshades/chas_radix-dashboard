@@ -4,7 +4,7 @@
 
 Målet är att återskapa kontrollpanelen som finns på [denna sida](https://ui.shadcn.com/examples/dashboard) med hjälp av Radix UI themes.
 
-Komponenter för Kalendern och grafen finns inte med i Radix UI använd istället dessa:
+Komponenter för Kalendern och diagrammet finns inte med i Radix UI använd istället dessa:
 
 - [shadcn Kalender](https://ui.shadcn.com/docs/components/calendar)
 
