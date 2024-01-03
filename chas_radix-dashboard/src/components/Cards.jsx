@@ -1,6 +1,6 @@
 import { nanoid } from 'nanoid'
-import Card from './nestedComponents/Card'
-import { Flex } from '@radix-ui/themes'
+import CardComponent from './nestedComponents/CardComponent'
+import { Grid } from '@radix-ui/themes'
 
 const Cards = () => {
   const cardData = [
@@ -36,13 +36,13 @@ const Cards = () => {
 
   return (
     <>
-      <section>
+      <section className="">
         {' '}
-        <Flex gap="3">
+        <Grid gap="3" columns="4">
           {cardData.map((card) => {
-            return <Card key={card.id} {...card} />
+            return <CardComponent key={card.id} {...card} />
           })}
-        </Flex>
+        </Grid>
       </section>
     </>
   )
