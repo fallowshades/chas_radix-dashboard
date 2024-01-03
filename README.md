@@ -4,11 +4,9 @@
 
 Målet är att återskapa kontrollpanelen som finns på [denna sida](https://ui.shadcn.com/examples/dashboard) med hjälp av Radix UI themes.
 
-Komponenter för Kalendern och diagrammet finns inte med i Radix UI använd istället dessa:
+Komponenten för diagrammet finns inte med i Radix UI. Använd istället Ovewview.jsx som finns i detta projekt.
 
-- [shadcn Kalender](https://ui.shadcn.com/docs/components/calendar)
-
-- Diagram - använd Ovewview.jsx i detta projekt.
+Komponenten för kalendern behöver inte vara med.
 
 ## Steg att följa
 
@@ -34,8 +32,6 @@ Komponenter för Kalendern och diagrammet finns inte med i Radix UI använd ist�
 ```
 npm install recharts
 ```
-
-- **Calendar** [shadcn Kalender](https://ui.shadcn.com/docs/components/calendar)
 
 ## Inlämning
 
