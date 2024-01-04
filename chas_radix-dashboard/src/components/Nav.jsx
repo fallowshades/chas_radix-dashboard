@@ -18,8 +18,11 @@ const Nav = () => {
   }
 
   return (
-    <Flex justify={'between'}>
-      <Flex>
+    <Flex
+      justify={'between'}
+      className="border-solid border-2 border-slate-200 m-0 p-4"
+    >
+      <Flex gap="4">
         <DropDownMenu />
         <Tabs.Root className="TabsRoot" defaultValue="tab1">
           <Tabs.List className="TabsList" size="1" aria-label="tabs in header">

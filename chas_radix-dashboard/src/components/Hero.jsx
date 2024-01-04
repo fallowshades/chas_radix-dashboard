@@ -18,9 +18,9 @@ const Hero = () => {
   }
 
   return (
-    <Flex justify="between">
-      <div>
-        <h2>Dashboard</h2>
+    <Flex justify="between" className="p-4">
+      <Flex direction="column" className="gap-4">
+        <h2 className="tracking-tight font-bold text-3xl">Dashboard</h2>
 
         <Tabs.Root className="TabsRoot" defaultValue="tab1">
           <Tabs.List className="TabsList" size="1" aria-label="tabs in header">
@@ -37,7 +37,7 @@ const Hero = () => {
             })}
           </Tabs.List>
         </Tabs.Root>
-      </div>
+      </Flex>
 
       <div>
         <PopoverInHero />
