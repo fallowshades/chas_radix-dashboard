@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid'
 import NavLinks from './nestedComponents/NavLinks'
 import { Flex } from '@radix-ui/themes'
 import * as Tabs from '@radix-ui/react-tabs'
-
+import PopoverInHero from './nestedComponents/PopoverInHero'
 const Hero = () => {
   const links = [
     { id: nanoid(), text: 'Overview' },
@@ -40,7 +40,7 @@ const Hero = () => {
       </div>
 
       <div>
-        <button>Jav 20, 2023 - Feb 09, 2023</button>
+        <PopoverInHero />
         <button>Download</button>
       </div>
     </Flex>
