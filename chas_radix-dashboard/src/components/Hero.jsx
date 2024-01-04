@@ -1,6 +1,6 @@
 import { nanoid } from 'nanoid'
 import NavLinks from './nestedComponents/NavLinks'
-import { Flex } from '@radix-ui/themes'
+import { Flex, Box, Button } from '@radix-ui/themes'
 import * as Tabs from '@radix-ui/react-tabs'
 import PopoverInHero from './nestedComponents/PopoverInHero'
 const Hero = () => {
@@ -39,10 +39,14 @@ const Hero = () => {
         </Tabs.Root>
       </Flex>
 
-      <div>
+      <Flex gap="4">
         <PopoverInHero />
-        <button>Download</button>
-      </div>
+        <Box>
+          <button className=" bg-black text-white h-inherit rounded-md p-2">
+            Download
+          </button>
+        </Box>
+      </Flex>
     </Flex>
   )
 }

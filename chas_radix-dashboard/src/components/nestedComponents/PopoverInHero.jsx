@@ -11,9 +11,9 @@ import {
 import { VscCalendar } from 'react-icons/vsc'
 const PopoverInHero = () => {
   return (
-    <div>
+    <Box>
       <Popover.Root>
-        <Popover.Trigger>
+        <Popover.Trigger className="border-solid border-slate-200 p-2">
           <Flex>
             <VscCalendar width="16" height="16" />
             Jan 20, 2023 - Feb 09, 2023
@@ -40,7 +40,7 @@ const PopoverInHero = () => {
           </Flex>
         </Popover.Content>
       </Popover.Root>
-    </div>
+    </Box>
   )
 }
 export default PopoverInHero
