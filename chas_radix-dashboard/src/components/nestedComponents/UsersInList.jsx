@@ -11,8 +11,8 @@ const UsersInList = ({ name, email, sale, img }) => {
   return (
     <Flex justify="between" className="p-4">
       <Flex gap="4">
-        <span class="relative flex shrink-0 overflow-hidden rounded-full h-9 w-9">
-          <img class="aspect-square h-full w-full" alt="Avatar" src={img} />
+        <span className="relative flex shrink-0 overflow-hidden rounded-full h-9 w-9">
+          <img className="aspect-square h-full w-full" alt="Avatar" src={img} />
         </span>
         <Flex direction={'column'}>
           <p className="font-bold">{name}</p>

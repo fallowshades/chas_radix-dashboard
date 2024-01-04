@@ -1,6 +1,6 @@
 import { nanoid } from 'nanoid'
 import NavLinks from './nestedComponents/NavLinks'
-import { Flex } from '@radix-ui/themes'
+import { Flex, Card } from '@radix-ui/themes'
 import * as Tabs from '@radix-ui/react-tabs'
 import DropDownMenu from './nestedComponents/DropDownMenu'
 const Nav = () => {
@@ -23,7 +23,10 @@ const Nav = () => {
       className="border-solid border-2 border-slate-200 m-0 p-4"
     >
       <Flex gap="4">
-        <DropDownMenu />
+        <Card>
+          {' '}
+          <DropDownMenu />
+        </Card>
         <Tabs.Root className="TabsRoot" defaultValue="tab1">
           <Tabs.List className="TabsList" size="1" aria-label="tabs in header">
             {links.map((link) => {

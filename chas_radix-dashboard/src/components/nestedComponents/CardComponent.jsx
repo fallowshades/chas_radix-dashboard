@@ -1,7 +1,7 @@
 import { Card, Flex, Box, Text, Strong } from '@radix-ui/themes'
 const CardComponent = ({ title, amount, info }) => {
   return (
-    <Card className="">
+    <Card className="z-1">
       <Flex gap="3" align="center">
         <Box>
           <div>
